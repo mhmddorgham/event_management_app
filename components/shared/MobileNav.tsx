@@ -23,13 +23,7 @@ const MobileNav = () => {
           className="cursor-pointer"/>
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-          {/* <SheetHeader>
-            <SheetTitle>Are you sure absolutely sure?</SheetTitle>
-            <SheetDescription>
-              This action cannot be undone. This will permanently delete your account
-              and remove your data from our servers.
-            </SheetDescription>
-          </SheetHeader> */}
+         
           <Image 
           src={"/assets/images/logo.svg"} 
           alt="logo" 

@@ -12,7 +12,16 @@ export const headerLinks = [
     route: '/profile',
   },
 ]
-
+export const HeroSectionCaption = {
+  title: 'Host, Connect, Celebrate: Your Events, Our Platform!',
+  description: 'Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.',
+  button:'Explore Now',
+}
+export const EventsSectionCaption = {
+  title: 'Host, Connect, Celebrate: Your Events, Our Platform!',
+  description: 'Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.',
+  button:'Explore Now',
+}
 export const eventDefaultValues = {
   title: '',
   description: '',

@@ -1,10 +1,13 @@
+import Events from '@/components/shared/Events'
+import HeroSection from '@/components/shared/HeroSection'
 import { Button } from '@/components/ui/button'
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button variant="outline"> Click Me</Button>
+    <main >
+      <HeroSection/>
+      <Events/>
     </main>
   )
 }
