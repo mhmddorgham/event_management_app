@@ -34,3 +34,12 @@ export const eventDefaultValues = {
   isFree: false,
   url: '',
 }
+// TODO: add basic routes here as const like this: 
+// export const BASE_ROUTES = {
+//   microsite: "/",
+//   signup: "/signup",
+//   auth: "/auth",
+//   admin: "/admin",
+//   student: "/student",
+//   tutor: "/tutor",
+// };

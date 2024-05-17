@@ -15,12 +15,15 @@ const Header = () => {
           
         </Link>
 
+{/* nav items for large screens */}
           <SignedIn>
             <nav className="hidden md:flex-between w-full max-w-xs ">
             <NavItems/>
             </nav>
           </SignedIn>
         <div className="flex justify-end gap-3">
+
+          {/* nav items for small screens */}
           <SignedIn>
             <UserButton afterSignOutUrl="/"/>
             <MobileNav/>
@@ -33,7 +36,6 @@ const Header = () => {
             </Link>
 
             </Button>
-            
           </SignedOut>
 
 
